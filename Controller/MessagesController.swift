@@ -6,8 +6,10 @@
 //  Copyright © 2018 E&D. All rights reserved.
 //
 
+
 import UIKit
 import Firebase
+
 // FIXME: comparison operators with optionals were removed from the Swift Standard Libary.
 // Consider refactoring the code to use the non-optional operators.
 fileprivate func < <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
@@ -42,14 +44,13 @@ class MessagesController: UITableViewController {
         
         navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Logout", style: .plain, target: self, action: #selector(handleLogout))
         
-        let image = UIImage(named: "new_message_icon")
+        let image = UIImage(named: "new_message_icon copy")
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: image, style: .plain, target: self, action: #selector(handleNewMessage))
         
         checkIfUserIsLoggedIn()
         
         tableView.register(UserCell.self, forCellReuseIdentifier: cellId)
         
-        observeUserMessages()
         
         tableView.allowsMultipleSelectionDuringEditing = true
     }
@@ -293,5 +294,4 @@ class MessagesController: UITableViewController {
     }
     
 }
-
 

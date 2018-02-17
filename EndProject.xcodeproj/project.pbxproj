@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		08968F7B7F3EA72621FE9200 /* Pods_EndProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA1294988EEB684F82D12E2 /* Pods_EndProjectUITests.framework */; };
 		B83611B05D4F0820513B6D82 /* Pods_EndProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715783CD6FC8EA193E2B6968 /* Pods_EndProject.framework */; };
+		CE69CE6F2038062000D815B2 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69CE6E2038062000D815B2 /* LoginController.swift */; };
+		CE69CE71203806BB00D815B2 /* LoginController+handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69CE70203806BB00D815B2 /* LoginController+handlers.swift */; };
 		CE8CCB4C2037A7F800895F24 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CCB4B2037A7F800895F24 /* User.swift */; };
 		CE8CCB4E2037A81100895F24 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CCB4D2037A81100895F24 /* Message.swift */; };
 		CE8CCB502037AA6F00895F24 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CCB4F2037AA6F00895F24 /* Extensions.swift */; };
-		CE8CCB522037B9A800895F24 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CCB512037B9A800895F24 /* LoginViewController.swift */; };
 		CE8CCB602037E7F900895F24 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CCB5F2037E7F900895F24 /* UserCell.swift */; };
 		CE8CCB622037E81500895F24 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CCB612037E81500895F24 /* ChatMessageCell.swift */; };
 		CE8CCB642037E83200895F24 /* ChatInputContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CCB632037E83200895F24 /* ChatInputContainerView.swift */; };
@@ -20,7 +21,6 @@
 		CE8CCB692037E8A300895F24 /* NewMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CCB682037E8A300895F24 /* NewMessageController.swift */; };
 		CE8CCB6D2037EA2B00895F24 /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CCB6C2037EA2B00895F24 /* ChatLogController.swift */; };
 		CED5B2D120379EBF0091C5BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED5B2D020379EBF0091C5BB /* AppDelegate.swift */; };
-		CED5B2D320379EBF0091C5BB /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED5B2D220379EBF0091C5BB /* LoginController.swift */; };
 		CED5B2D620379EBF0091C5BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED5B2D420379EBF0091C5BB /* Main.storyboard */; };
 		CED5B2D820379EBF0091C5BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED5B2D720379EBF0091C5BB /* Assets.xcassets */; };
 		CED5B2DB20379EBF0091C5BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED5B2D920379EBF0091C5BB /* LaunchScreen.storyboard */; };
@@ -55,10 +55,11 @@
 		733E5AA807690423964C639D /* Pods-EndProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EndProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EndProjectTests/Pods-EndProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A84D525DD48AB4CEB5D739F4 /* Pods-EndProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EndProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EndProjectUITests/Pods-EndProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		ABA1294988EEB684F82D12E2 /* Pods_EndProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EndProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE69CE6E2038062000D815B2 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		CE69CE70203806BB00D815B2 /* LoginController+handlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginController+handlers.swift"; sourceTree = "<group>"; };
 		CE8CCB4B2037A7F800895F24 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CE8CCB4D2037A81100895F24 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		CE8CCB4F2037AA6F00895F24 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		CE8CCB512037B9A800895F24 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CE8CCB5F2037E7F900895F24 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		CE8CCB612037E81500895F24 /* ChatMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
 		CE8CCB632037E83200895F24 /* ChatInputContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInputContainerView.swift; sourceTree = "<group>"; };
@@ -67,7 +68,6 @@
 		CE8CCB6C2037EA2B00895F24 /* ChatLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
 		CED5B2CD20379EBF0091C5BB /* EndProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EndProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED5B2D020379EBF0091C5BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CED5B2D220379EBF0091C5BB /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		CED5B2D520379EBF0091C5BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CED5B2D720379EBF0091C5BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED5B2DA20379EBF0091C5BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -193,8 +193,8 @@
 			isa = PBXGroup;
 			children = (
 				CED5B2D420379EBF0091C5BB /* Main.storyboard */,
-				CED5B2D220379EBF0091C5BB /* LoginController.swift */,
-				CE8CCB512037B9A800895F24 /* LoginViewController.swift */,
+				CE69CE6E2038062000D815B2 /* LoginController.swift */,
+				CE69CE70203806BB00D815B2 /* LoginController+handlers.swift */,
 				CED5B2DC20379EBF0091C5BB /* Info.plist */,
 				CED5B2FF2037A4650091C5BB /* GoogleService-Info.plist */,
 			);
@@ -530,9 +530,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE8CCB522037B9A800895F24 /* LoginViewController.swift in Sources */,
+				CE69CE6F2038062000D815B2 /* LoginController.swift in Sources */,
 				CE8CCB502037AA6F00895F24 /* Extensions.swift in Sources */,
-				CED5B2D320379EBF0091C5BB /* LoginController.swift in Sources */,
+				CE69CE71203806BB00D815B2 /* LoginController+handlers.swift in Sources */,
 				CE8CCB672037E88600895F24 /* MessagesController.swift in Sources */,
 				CE8CCB4E2037A81100895F24 /* Message.swift in Sources */,
 				CED5B2D120379EBF0091C5BB /* AppDelegate.swift in Sources */,
