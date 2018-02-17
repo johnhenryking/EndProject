@@ -108,7 +108,7 @@ class LoginController: UIViewController {
     
     lazy var profileImageView: UIImageView = {
         let imageView = UIImageView()
-        imageView.image = UIImage(named: "gameofthrones_splash")
+        imageView.image = UIImage(named: "choosePhoto")
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.contentMode = .scaleAspectFill
         
@@ -163,6 +163,27 @@ class LoginController: UIViewController {
         setupLoginRegisterButton()
         setupProfileImageView()
         setupLoginRegisterSegmentedControl()
+        
+        emailTextField.addTarget(self, action: #selector(userIsAbleToLogin), for: UIControlEvents.editingChanged)
+        passwordTextField.addTarget(self, action: #selector(userIsAbleToLogin), for: UIControlEvents.editingChanged)
+        
+        profileImageView.layer.cornerRadius = profileImageView.frame.size.width / 2.0
+        profileImageView.layer.masksToBounds = true
+    }
+    
+    @objc func userIsAbleToLogin() {
+        let validEntries =
+            emailTextField.text?.count ?? 0 > 0 &&
+                passwordTextField.text?.count ?? 0 > 0 &&
+        profileImageView.image != UIImage(named: "choosePhoto")
+        
+        if validEntries {
+            loginRegisterButton.isEnabled = true
+            loginRegisterButton.backgroundColor = #colorLiteral(red: 0.3529411765, green: 0.4588235294, blue: 0.8392156863, alpha: 1)
+        } else {
+            loginRegisterButton.isEnabled = false
+            loginRegisterButton.backgroundColor = #colorLiteral(red: 0.8534670472, green: 0.8671986461, blue: 0.8862860799, alpha: 1)
+        }
     }
     
     func setupLoginRegisterSegmentedControl() {

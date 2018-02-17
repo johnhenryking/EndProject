@@ -11,6 +11,7 @@
 		B83611B05D4F0820513B6D82 /* Pods_EndProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715783CD6FC8EA193E2B6968 /* Pods_EndProject.framework */; };
 		CE69CE6F2038062000D815B2 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69CE6E2038062000D815B2 /* LoginController.swift */; };
 		CE69CE71203806BB00D815B2 /* LoginController+handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69CE70203806BB00D815B2 /* LoginController+handlers.swift */; };
+		CE7F136320380E580071DBBA /* Authorizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F136220380E580071DBBA /* Authorizations.swift */; };
 		CE8CCB4C2037A7F800895F24 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CCB4B2037A7F800895F24 /* User.swift */; };
 		CE8CCB4E2037A81100895F24 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CCB4D2037A81100895F24 /* Message.swift */; };
 		CE8CCB502037AA6F00895F24 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CCB4F2037AA6F00895F24 /* Extensions.swift */; };
@@ -57,6 +58,7 @@
 		ABA1294988EEB684F82D12E2 /* Pods_EndProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EndProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE69CE6E2038062000D815B2 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		CE69CE70203806BB00D815B2 /* LoginController+handlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginController+handlers.swift"; sourceTree = "<group>"; };
+		CE7F136220380E580071DBBA /* Authorizations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authorizations.swift; sourceTree = "<group>"; };
 		CE8CCB4B2037A7F800895F24 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CE8CCB4D2037A81100895F24 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		CE8CCB4F2037AA6F00895F24 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -223,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				CED5B2D020379EBF0091C5BB /* AppDelegate.swift */,
+				CE7F136220380E580071DBBA /* Authorizations.swift */,
 				CED5B2D720379EBF0091C5BB /* Assets.xcassets */,
 				CED5B2D920379EBF0091C5BB /* LaunchScreen.storyboard */,
 				CE8CCB4F2037AA6F00895F24 /* Extensions.swift */,
@@ -533,6 +536,7 @@
 				CE69CE6F2038062000D815B2 /* LoginController.swift in Sources */,
 				CE8CCB502037AA6F00895F24 /* Extensions.swift in Sources */,
 				CE69CE71203806BB00D815B2 /* LoginController+handlers.swift in Sources */,
+				CE7F136320380E580071DBBA /* Authorizations.swift in Sources */,
 				CE8CCB672037E88600895F24 /* MessagesController.swift in Sources */,
 				CE8CCB4E2037A81100895F24 /* Message.swift in Sources */,
 				CED5B2D120379EBF0091C5BB /* AppDelegate.swift in Sources */,
